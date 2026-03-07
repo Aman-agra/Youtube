@@ -306,7 +306,7 @@
         <span style="font-size: 11px; color: rgba(255,255,255,0.3); margin-left: 4px;">— Free at console.groq.com</span>
       </div>
       <div class="flex gap-3 items-center">
-        <input class="api-input" id="apiKeyInput" placeholder="Paste your Groq API key here..." type="password"/>
+        <input class="api-input" id="apiKeyInput" style="background:#1a0808 !important; color:#fff !important; -webkit-text-fill-color:#fff !important;" placeholder="Paste your Groq API key here..." type="password" style="background:#1a0808 !important; color:#ffffff !important; -webkit-text-fill-color:#ffffff !important;"/>
         <button onclick="toggleApiKey()" style="color: rgba(255,255,255,0.4); background: none; border: none; cursor: pointer; padding: 4px;">
           <span class="material-symbols-outlined" id="eyeIcon" style="font-size: 20px;">visibility</span>
         </button>
@@ -320,7 +320,7 @@
       <div class="flex flex-col lg:flex-row gap-4 items-end">
         <div class="relative flex-1 w-full">
           
-          <input class="topic-input" id="topicInput" placeholder="e.g. survival facts, horror stories, body facts" type="text" onkeydown="if(event.key==='Enter') generateScript()"/>
+          <input class="topic-input" id="topicInput" style="background:#160a0a !important; color:#fff !important; -webkit-text-fill-color:#fff !important;" placeholder="e.g. survival facts, horror stories, body facts" type="text" onkeydown="if(event.key==='Enter') generateScript()" style="background:#1a0808 !important; color:#ffffff !important; -webkit-text-fill-color:#ffffff !important;"/>
         </div>
         <button class="generate-btn" id="generateBtn" onclick="generateScript()">
           <span class="material-symbols-outlined" style="font-size: 20px;">bolt</span>
